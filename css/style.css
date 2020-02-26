@@ -1,0 +1,331 @@
+
+/* General */
+
+.table>tbody>tr>td{
+  /*padding: 8px 8px 0px 8px !important;*/
+}
+
+textarea{
+    resize: none !important;
+}
+
+label{
+  color: black !important;
+  font-size: 12pt !important;
+}
+
+.btn-block+.btn-block{
+    margin-top: 0;
+}
+
+.logo-mini .img-canaco.img-responsive{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 22px;
+}
+
+.logo-lg .img-canaco.img-responsive{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#example1{
+  margin-top: 15px !important;
+}
+
+/* Mios */
+
+.mexicanada{
+    position: absolute;
+    right: 0;
+    margin-right: 27px;
+}
+
+.mexicanada_v2{
+    position: absolute;
+    top: 67px;
+    right: 27px;
+}
+
+.input_imagen_lugar{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.span_btn_examinar{
+    margin-left: 0px !important;
+    margin-right: 15px !important;
+}
+
+.eliminar_margin_top{
+    margin-top: 0;
+}
+
+.btn_fondo_gris{
+    color: white;
+    background: #727272;
+}
+
+.dividir_elementos.diagonal{
+  display: flex;
+  align-items: baseline;
+}
+
+.dividir_elementos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dividir_elementos.margen_bottom{
+  margin-bottom: 15px;
+}
+
+.dividir_elementos_v2{
+    display: flex;
+}
+
+.align_center{
+  align-items: center;
+}
+
+.dividir_elementos_v2 p{
+    margin: 0;
+}
+
+.modicar_p{
+    color: black;
+    font-size: 12pt !important;
+}
+
+.fecha_modificacion{
+    color: #004A82 !important;
+    font-size: 12pt !important;
+}
+
+.dividir_elementos_v2 .material-icons{
+  padding-right: 12px;
+  color: #DC0000;
+}
+
+.dividir_elementos_center{
+    align-items: center;
+}
+
+.dividir_elementos.mover_abajo p{
+    margin: 0 !important;
+}
+
+.modificar_fila{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.dividir_elementos.mover_abajo{
+    align-items: baseline;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 27px;
+}
+
+/* Eliminar margin-bottom de los titulos de cada modulo */
+
+.titulo h3,
+.titulo h4{
+    margin-bottom: 0;
+}
+
+/* Configuraciones para los iconos de opciones */
+
+.opciones i{
+    cursor: pointer;
+    color:#676767 !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+}
+
+/* Configurar paginacion */
+
+.pagination > .active > a{
+    background-color: #004A82 !important;
+}
+
+/* Configurar titulo de la cardview y los botones */
+
+.titulo .dividir_elementos .btn-default,
+.titulo .dividir_elementos .btn-primary{
+    margin-left: 20px;
+}
+
+.input-group-btn:last-child > .btn{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+span.btn{
+    margin-left: 20px !important;
+    margin-right: 0px !important;
+}
+
+/* Configuraciones de la Modal */
+
+.agregar .modal-footer{
+    border-top: none !important;
+    padding: 0px !important;
+}
+
+.agregar .modal-footer,
+.eliminar .modal-footer,
+.actualizar .modal-footer{
+    border-top: none !important;
+    padding: 0px 22px 22px 0px !important;
+}
+
+.modal-footer .btn{
+    margin-right: 0px !important;
+}
+
+/* Modal-Body */
+
+.modal .modal-body p{
+    font-size: 12pt;
+    color: black;
+    font-weight: 500;
+}
+
+/* Configurar ancho del buscador de la tabla */
+
+div.dataTables_wrapper div.dataTables_filter input{
+  width: 100%;
+}
+
+/* Configuraciones del padding de la tabla para el ancho */
+
+table.dataTable thead > tr > th.sorting_asc,
+table.dataTable thead > tr > th.sorting_desc,
+table.dataTable thead > tr > th.sorting,
+table.dataTable thead > tr > td.sorting_asc,
+table.dataTable thead > tr > td.sorting_desc,
+table.dataTable thead > tr > td.sorting{
+    padding-right: 15px !important;
+}
+
+div.dataTables_wrapper div.dataTables_filter{
+  text-align: inherit !important;
+}
+
+/* Ocultar icono de las columnas de la tabla */
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after{
+  opacity: 0.0 !important;
+  content: none !important;
+}
+
+/* Table Convenios */
+
+table.convenios .img-responsiv{
+  min-height: 10px !important;
+  height: 90px !important;
+}
+
+table.convenios img{
+  height: 90px !important;
+}
+
+table.convenios textarea.form-control{
+  width: 100%;
+  border-color: white !important;
+}
+
+/* Padding de los iconos del aside cuando se puche el icono de hamburgesa */
+
+.skin-blue.sidebar-mini.sidebar-collapse .sidebar-menu > li > a{
+    padding-left: 10px !important;
+}
+
+.opciones_adicionales label{
+  font-weight: normal !important;
+}
+
+/* Aside */
+
+.margin_top_p{
+  margin-top: 0px !important;
+  margin-left: 10px !important;
+}
+
+.margin_top_p_v2{
+  margin-top: 0px !important;
+  margin-left: 10px !important;
+}
+
+.margin_top_p_v3{
+  margin-left: 8px !important;
+}
+
+.padding_top_bottom_p{
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.padding_top_bottom_p_v2{
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.padding_top_bottom_p_v3{
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+}
+
+/* Text area Servicios Convenios */
+
+.link-textarea{
+  border-color: rgba(255, 255, 255, 0) !important;
+  -moz-border-color: rgba(255, 255, 255, 0);
+}
+
+/* Configuraciones para cuando el aside se haga pequeño
+no se active el hover de los elementos de la lista */
+
+.skin-blue.sidebar-mini.sidebar-collapse .dividir_elementos_v2 p,
+.skin-blue.sidebar-mini.sidebar-collapse span.pull-right-container,
+.skin-blue.sidebar-mini.sidebar-collapse ul.treeview-menu li,
+.skin-blue.sidebar-mini.sidebar-collapse ul.treeview-menu li a,
+.skin-blue.sidebar-mini.sidebar-collapse ul.treeview-menu li a,
+.skin-blue.sidebar-mini.sidebar-collapse ul.treeview-menu li a i,
+.skin-blue.sidebar-mini.sidebar-collapse i.fa.fa-angle-left.pull-left,
+.sidebar-mini.sidebar-collapse .sidebar-menu > li > .treeview-menu{
+  display: none !important;
+  opacity: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Media Query */
+
+@media (max-width: 767px) {
+  .skin-blue .main-header .navbar{
+    background: red;
+  }
+
+  .logo-lg .img-canaco.img-responsive{
+    width: 25%;
+  }
+
+  .main-header{
+    max-height: none !important;
+  }
+
+  .box-body{
+    overflow-y: scroll !important;
+  }
+}

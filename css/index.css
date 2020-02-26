@@ -1,0 +1,110 @@
+body{
+	background: #004786;
+}
+
+form{
+	margin-top: 55%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 60px 30px 40px 30px;
+	border-radius: 3%;
+	background: white;
+	-webkit-box-shadow: 2px 2px 50px -4px rgba(0,0,0,0.61);
+	-moz-box-shadow: 2px 2px 50px -4px rgba(0,0,0,0.61);
+	box-shadow: 2px 2px 50px -4px rgba(0,0,0,0.61);
+}
+
+.circle-white{
+	background: white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.circle-blue{
+	background: #0b579a;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -130px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-default,
+.btn-default:hover,
+.btn-default:active,
+.btn-default:link{
+	pointer-events: none;
+	background: #0b579a;
+	color: white;
+}
+
+.btn-primary{
+	background: #004786;
+	color: white;
+}
+
+.titulo_administrativo{
+  font-size: 17pt;
+	font-weight: bold;
+	color: #004786;
+	margin: 16px 0px 16px 0px;
+}
+
+h3{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	color: #2F66BA;
+}
+
+.glyphicon-send{
+	color: white;
+}
+
+.change-text{
+	color: white;
+	font-size: 12pt;
+	font-weight: bold;
+	margin: 0 0 0px;
+}
+
+.change-align{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.change-color{
+	color: #afadad;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+div p.error{
+	display: none;
+	color: red;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+/* Media Jquerys */
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+	form{
+		margin-top: 40%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	form{
+		margin-top: 25%;
+	}
+}

@@ -1,0 +1,667 @@
+
+/* General */
+
+.box{
+    height: auto !important;
+}
+.box-body{
+    height: auto !important;
+}
+
+textarea{
+    resize: none !important;
+}
+
+.content{
+    overflow-y: scroll !important;
+}
+
+label{
+  color: black !important;
+  font-size: 12pt !important;
+}
+
+.btn-block+.btn-block{
+    margin-top: 0;
+}
+
+.logo-mini .img-canaco.img-responsive{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 22px;
+}
+
+.logo-lg .img-canaco.img-responsive{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+}
+
+::-webkit-scrollbar {
+display: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Mio */
+
+.mexicanada_v2{
+    position: absolute;
+    top: 67px;
+    right: 27px;
+}
+
+.mexicanada_v3{
+    position: absolute;
+    top: 388px;
+    right: 27px;
+    z-index: 1;
+}
+
+.mexicanada_v4{
+    position: absolute;
+    top: 68px;
+    right: 27px;
+    z-index: 1;
+}
+
+.input_imagen_lugar{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.span_btn_examinar{
+    margin-left: 0px !important;
+    margin-right: 15px !important;
+}
+
+.tabla_lugares_scroll{
+    height: 200px !important;
+    overflow-x: scroll;
+}
+
+.cienporciento{
+    width: 80% !important;
+    max-width: 90% !important;
+}
+
+.margen_bottom{
+    margin-bottom: 10px;
+}
+
+.select_vacio{
+    border: 1px solid #f44336;
+}
+
+.eliminar_margin_top{
+    margin-top: 0;
+}
+
+.btn_fondo_gris,
+.btn_fondo_gris:active,
+.btn_fondo_gris:focus{
+    color: white;
+    background: #727272;
+}
+
+.fecha_modificacion{
+    color: #004A82 !important;
+    font-size: 12pt !important;
+}
+
+.dividir_elementos.diagonal{
+  display: flex;
+  align-items: baseline;
+}
+
+.dividir_elementos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dividir_elementos.margen_bottom{
+  margin-bottom: 15px;
+}
+
+.dividir_elementos.opciones_galeria{
+  display: flex !important;
+  justify-content: center;
+  padding-top: 28%;
+}
+
+.dividir_elementos_v2{
+    display: flex;
+}
+
+.align_center{
+  align-items: center;
+}
+
+.dividir_elementos_v2 p{
+    margin: 0;
+}
+
+.modicar_p{
+    color: black;
+    font-size: 12pt !important;
+}
+
+.fecha_modificacion{
+    color: #004A82 !important;
+    font-size: 12pt !important;
+}
+
+.dividir_elementos_v2 .material-icons{
+  padding-right: 12px;
+  color: #DC0000;
+}
+
+.dividir_elementos_center{
+    align-items: center;
+}
+
+.dividir_elementos.mover_abajo p{
+    margin: 0 !important;
+}
+
+.modificar_fila{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.fecha_evento_final{
+    pointer-events: none;
+}
+
+.dividir_elementos.mover_abajo{
+    align-items: baseline;
+}
+
+.img-noticias{
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
+}
+
+.parte_liga{
+  width: 26%;
+}
+
+/* Eliminar margin-bottom de los titulos de cada modulo */
+
+.titulo h3,
+.titulo h4{
+    margin-bottom: 0;
+}
+
+/* Configuraciones para los iconos de opciones */
+
+.opciones i{
+    cursor: pointer;
+    color:#676767 !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+}
+
+/* Configurar paginacion */
+
+.pagination > .active > a{
+    background-color: #004A82 !important;
+}
+
+/* Configurar titulo de la cardview y los botones */
+
+.titulo .dividir_elementos .btn-default,
+.titulo .dividir_elementos .btn-primary{
+    margin-left: 20px;
+}
+
+.input-group-btn:last-child > .btn{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+span.btn{
+    margin-left: 20px !important;
+    margin-right: 0px !important;
+}
+
+/* Configuraciones de la Modal */
+
+.agregar .modal-footer{
+    border-top: none !important;
+    padding: 0px !important;
+}
+
+.agregar .modal-footer,
+.eliminar .modal-footer,
+.actualizar .modal-footer{
+    border-top: none !important;
+    padding: 0px 22px 22px 0px !important;
+}
+
+.modal-footer .btn{
+    margin-right: 0px !important;
+}
+
+.agregar .moda-body label{
+  font-weight: 500 !important;
+}
+
+/* Modal-Body */
+
+.modal .modal-body p{
+    font-size: 12pt;
+    color: black;
+    font-weight: 500;
+}
+
+/* Input Publicaciones Activas */
+.publicaciones_activas{
+  width: 19px;
+  border: 0;
+  /*margin-left: 6px;*/
+}
+
+/* Padding de los iconos del aside cuando se puche el icono de hamburgesa */
+
+.skin-blue.sidebar-mini.sidebar-collapse .sidebar-menu > li > a{
+    padding-left: 10px !important;
+}
+
+.opciones_adicionales label{
+  font-weight: normal !important;
+}
+
+div.dataTables_wrapper div.dataTables_filter{
+  text-align: inherit !important;
+}
+
+/* Ocultar icono de las columnas de la tabla */
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after{
+  opacity: 0.0 !important;
+  content: none !important;
+}
+
+/* Modal con P normal */
+
+p.normal{
+  font-weight: normal !important;
+}
+
+/* A.M. */
+
+.cuadro_rojo{
+  background: #DC0000;
+  padding: 5px;
+  border: 10px;
+  color: white;
+  border-radius: 3px;
+  font-weight: 500;
+  cursor: default;
+  margin: 0 15px;
+  text-align: center;
+}
+
+/* P.M. */
+
+.cuadro_naranja{
+  background: #FF5722;
+  padding: 5px;
+  border: 10px;
+  color: white;
+  border-radius: 3px;
+  font-weight: 500;
+  cursor: default;
+  margin: 0 15px;
+  text-align: center;
+}
+
+/* Horario */
+
+.alinear_row{
+  display: flex;
+  align-items: baseline;
+}
+
+/* Modificar Dia */
+
+.alinear_row.check{
+  width: 21%;
+}
+
+/* Modificar De */
+.alinear_row.de{
+  padding: 0px !important;
+  width: 4%;
+}
+
+/* Calificación */
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider.ranting {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.8;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 10px
+}
+
+.slider.ranting:hover {
+    opacity: 1;
+}
+
+.slider.ranting::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #0c5287;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider.ranting::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider2 {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #eeeeee;
+    outline: none;
+    opacity: 0.8;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 10px
+}
+
+.slider2:hover {
+    opacity: 1;
+}
+
+.slider2::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider2::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+input[type=range] {
+  margin: 10px !important;
+}
+
+#ver_imagen_modal .modal-header,
+#ver_imagen_lugar_modal .modal-header{
+  padding: 0px !important;
+}
+
+#ver_imagen_modal .close,
+#ver_imagen_lugar_modal .close{
+  position: absolute !important;
+  z-index: 99999 !important;
+  right: 15px !important;
+  top: 10px !important;
+  color: white !important;
+  opacity: 1 !important;
+  font-size: 21px !important;
+}
+
+#ver_imagen_modal .modal-body,
+#ver_imagen_lugar_modal .modal-body{
+  padding: 0px !important;
+}
+
+/* Horario */
+
+.ancho_hora{
+  width: 110px;
+}
+
+.margin_dia{
+  margin-left: 20px;
+  margin-right: 60px;
+}
+
+.margin_dia2{
+  margin-left: 20px;
+  margin-right: 52px;
+}
+
+.margin_dia3{
+  margin-left: 20px;
+  margin-right: 32px;
+}
+
+.margin_dia4{
+  margin-left: 20px;
+  margin-right: 48px;
+}
+
+.margin_dia5{
+  margin-left: 20px;
+  margin-right: 48px;
+}
+
+.margin_dia6{
+  margin-left: 20px;
+  margin-right: 36px;
+}
+
+.margin_dia7{
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.margin_dia8{
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+.label_margin_left{
+  margin-left: 20px;
+}
+
+.drop{
+  cursor: no-drop !important;
+}
+
+/* Aside */
+
+.margin_top_p{
+  margin-top: 0px !important;
+  margin-left: 10px !important;
+}
+
+.margin_top_p_v2{
+  margin-top: 0px !important;
+  margin-left: 10px !important;
+}
+
+.margin_top_p_v3{
+  margin-left: 8px !important;
+}
+
+.padding_top_bottom_p{
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.padding_top_bottom_p_v2{
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+
+.padding_top_bottom_p_v3{
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+}
+
+/* Configuraciones para cuando el aside se haga pequeño
+no se active el hover de los elementos de la lista */
+
+.skin-blue.sidebar-mini.sidebar-collapse .dividir_elementos_v2 p,
+.skin-blue.sidebar-mini.sidebar-collapse span.pull-right-container,
+.skin-blue.sidebar-mini.sidebar-collapse ul.treeview-menu li,
+.skin-blue.sidebar-mini.sidebar-collapse ul.treeview-menu li a,
+.skin-blue.sidebar-mini.sidebar-collapse ul.treeview-menu li a,
+.skin-blue.sidebar-mini.sidebar-collapse ul.treeview-menu li a i,
+.skin-blue.sidebar-mini.sidebar-collapse i.fa.fa-angle-left.pull-left,
+.sidebar-mini.sidebar-collapse .sidebar-menu > li > .treeview-menu{
+  display: none !important;
+  opacity: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Media Query */
+
+@media (max-width: 767px) {
+  .skin-blue .main-header .navbar{
+    background: red;
+  }
+
+  .logo-lg .img-canaco.img-responsive{
+    width: 25%;
+  }
+
+  .main-header{
+    max-height: none !important;
+  }
+
+  .box-body{
+    overflow-y: scroll !important;
+  }
+}
+
+/* Configuracion de input y boton afiliacion y requisito */
+
+.form-group.dividir_elementos .btn.btn-default{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+}
+
+/* Galeria */
+
+.slider {
+    width: 93%;
+    margin: 10px auto;
+}
+
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+
+.container{
+  position: relative;
+  width: 135px !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 0.5;
+}
+
+.borrar {
+  position: absolute;
+  color: white;
+  background: black;
+  opacity: 1;
+  padding: 0px;
+  border-radius: 50%;
+  font-size: 16pt;
+  top: 40px;
+  right: 60px;
+}
+
+.borrar_galeria {
+  color: white;
+  background: black;
+  opacity: 1;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.borrar2 {
+  color: white;
+  background: black;
+  opacity: 0.7;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.ver_imagen{
+  padding: 5px;
+  color: white;
+  background: black;
+  opacity: 1;
+  margin-right: 10px;
+  border-radius: 50%;
+  font-size: 16pt;
+}
+
+.box .overlay{
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0px !important;
+}
